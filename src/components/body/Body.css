@@ -1,0 +1,39 @@
+.main {
+  @apply text-black mt-20 text-white grid grid-cols-2 gap-4;
+}
+
+.cont-1,
+.cont-2 {
+  @apply bg-cyan-700 rounded-2xl flex justify-center items-center;
+}
+
+.content {
+  @apply flex flex-col gap-4 justify-center items-center p-4;
+}
+
+.parrafo-1,
+.parrafo-2 {
+  @apply bg-cyan-950 rounded-2xl p-4;
+}
+
+.images {
+  @apply h-52 rounded-2xl;
+}
+.cont-3{
+  @apply bg-cyan-900 grid col-span-2 grid-cols-2 p-4 mt-4 gap-4 content-center
+}
+.co1, 
+.co2{
+  @apply flex flex-col items-center bg-slate-950 rounded-xl p-4  ml-0 gap-4
+}
+
+.ima1, 
+.ima2{
+  @apply rounded-full h-48
+}
+.cont-4{
+  @apply text-cyan-300 grid col-span-2 grid-cols-3 gap-4
+}
+.p1, .p2, .p3{
+  @apply bg-sky-800 rounded-xl p-4
+}
